@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RHT | Grocery Shopping Website</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/mobile.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+<body>
+  <div class="main-body-wrapper">
+
+    <div class="site-nav">
+      <div class="mobile-logo p-1">
+          <img src="./icons/logo.svg" alt="">
+      </div>
+      <div class="p-1">
+          <div class="mb-1">
+              <div class="flex items-center">
+                  <img src="./icons/cart-dark.svg" alt="">
+                  <a href="#">0 Items - ($0.00)</a>
+              </div>
+          </div>
+          <div>
+              <ul>
+                  <li class="mb-1">
+                      <a href="#showcase">Home</a>
+                  </li>
+                  <li class="mb-1">
+                      <a href="#about">About us</a>
+                  </li>
+                  <li class="mb-1">
+                      <a href="#">Products</a>
+                  </li>
+                  <li class="mb-1">
+                      <a href="#blog">Blog</a>
+                  </li>
+                  <li class="mb-1">
+                      <a href="#deal">Shop</a>
+                  </li>
+                  <li class="mb-1">
+                      <a href="#service">Services</a>
+                  </li>
+                  <li class="mb-1">
+                      <a href="#contact">Contact us</a>
+                  </li>
+                  <li class="mb-1">
+                      <a href="#">Log in</a>
+                  </li>
+                  <li class="mb-1">
+                      <a href="#">Register</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="flex items-center mb-1">
+              <img src="./icons/phone.svg" alt="" class="mr-half">
+              <div>
+                  <h5>Call us: (+84) 123 456 789</h5>
+                  <h6>E-mail : support@freshmeal.com</h6>
+              </div>
+          </div>
+          <div class="flex items-center mb-1">
+              <img src="./icons/clock.svg" alt="" class="mr-half">
+              <div>
+                  <h5>Working Hours:</h5>
+                  <h6>Mon - Sat (8.00am - 12.00am)</h6>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="site-content-wrapper">
+  
+
+  <div class="nav-trigger">
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bar-chart"> 
+          <line x1="12" y1="20" x2="12" y2="10" />
+          <line x1="18" y1="20" x2="18" y2="4" />
+          <line x1="6" y1="20" x2="6" y2="16" />
+        </svg>
+    
+  </div>
+
+
+  <div class="site-content">
+
+  
+  <!-- Top Bar -->
+  <header class="top-bar">
+    <div class="container flex justify-between align-center top-bar-wrapper">
+      <div class="social flex">
+        <a href="https://www.linkedin.com/in/RhtWeb" class="mr-half" target="_blank">
+          <i class="fab fa-linkedin color-heaven"></i>
+        </a>
+        <a href="https://github.com/RhtWeb" class="mr-half" target="_blank">
+          <i class="fab fa-github color-heaven"></i>
+        </a>
+        <a href="https://www.facebook.com/RhtWeb" class="mr-half" target="_blank"><img src="./icons/facebook.svg" alt="Facebook link Icon" /></a>
+        <a href="https://www.instagram.com/RhtWeb" class="mr-half" target="_blank"><img src="./icons/instagram.svg" alt="instagram link Icon" /></a>
+      </div>
+      <div class="auth flex">
+        <div>
+          <a href="#" class="color-heaven">
+            <img src="./icons/user-icon.svg" alt="User icon" class="mr-half"> Log in
+          </a>
+        </div>
+        <span class="m-half">|</span>
+        <div>
+          <a href="#" class="color-heaven">
+            <img src="./icons/edit.svg" alt="register" class="mr-half"> Register Now
+          </a>
+        </div>
+        <span class="m-half">|</span>
+        <div>
+          <a href="#" class="color-heaven">
+            <img src="./icons/cart.svg" alt="cart" class="mr-half"> 0 Items - ($0.00)
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Branding -->
+  <header class="brand display-none-m">
+    <div class="container flex justify-between align-center brand-wrapper">
+      <div class="flex align-center contacts">
+        <div class="mr-half">
+          <img src="./icons/phone.svg" alt="contact logo" />
+        </div>
+        <div class="flex flex-column">
+          <h4>Call US: (+84)123 456 789</h4>
+          <h5 class="color-ternary">E-mail : support@freshmeal.com</h5>
+        </div>
+      </div>
+      <div class="brand-logo display-none-m">
+        <a href="#">
+          <img src="./icons/logo.svg" alt="brand logo">
+        </a>
+      </div>
+      <div class="flex align-center work">
+        <div class="mr-half">
+          <img src="./icons/clock.svg" alt="contact logo" />
+        </div>
+        <div class="flex flex-column">
+          <h4>Working Hours:</h4>
+          <h5 class="color-ternary">Mon - Sat (8.00am - 12.00am)</h5>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Nav Bar -->
+  <nav class="nav-bar display-none-m">
+      <div class="container flex justify-center nav-bar-wrapper">
+        <a href="#showcase" class="color-secondary current">Home</a>
+        <a href="#about" class="color-secondary">About Us</a>
+        <a href="#" class="color-secondary">Product</a>
+        <a href="#blog" class="color-secondary">Blog</a>
+        <a href="#deal" class="color-secondary">Shop</a>
+        <a href="#service" class="color-secondary">Service</a>
+        <a href="#footer-1" class="color-secondary">Gallery</a>
+        <a href="#contact" class="color-secondary">Contact</a>
+      </div>
+  </nav>
+
+  <!-- Showcase -->
+  <section id="showcase" class="showcase">
+    <div class="container flex justify-between align-center showcase-wrapper">
+      <div class="show-content">
+        <h3 class="flex align-center">Welcome to <pre> </pre><span><img src="./icons/logo-2.svg" alt="logo 2"></span></h3>
+        <h1>The World Best <span class="color-primary">Shoping</span> Website</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+        <div>
+          <button class="btn btn-primary mr-half">Read More</button>
+          <button class="btn btn-secondary">Shop Now</button>
+        </div>
+      </div>
+      <div class="showcase-img display-none-m">
+        <img src="./images/straw.png" alt="straw">
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section  -->
+  <section id="about">
+    <div class="container">
+      <div class="sec-head">
+        <h1>
+          About Fresh Meal
+        </h1>
+        <div>
+          <img src="./icons/hr.svg" alt="hr">
+        </div>
+      </div>
+      <div class="flex align-center about-content">
+        <div class="flex-1 about-img">
+          <img src="./images/yogurt.png" alt="yogurt">
+        </div>
+        <div class="flex-1">
+          <h1 class="mb-2">Freshmeal is a long established fact that a reader will be distracted</h1>
+          <p class="mb-2">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden Sydney College in Virginia, The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
+          <button class="btn btn-secondary">Read More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Section  -->
+  <section id="service">
+    <div class="container">
+      <div class="sec-head">
+        <h1>Our Service</h1>
+        <div>
+          <img src="./icons/hr.svg" alt="hr">
+        </div>
+      </div>
+      <div class="flex justify-between card">
+        <div class="card-item">
+          <div class="card-item-img">
+            <img src="./icons/transport.svg" alt="transport icon">
+          </div>
+          <h2 class="mb-1">Free Home delivery</h2>
+          <p class="mb-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <button class="btn btn-secondary">Read More</button>
+        </div>
+
+        <div class="card-item">
+          <div class="card-item-img">
+            <img src="./icons/bag.svg" alt="transport icon">
+          </div>
+          <h2 class="mb-1 color-primary">30 Days Return Services</h2>
+          <p class="mb-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <button class="btn btn-primary">Read More</button>
+        </div>
+
+        <div class="card-item">
+          <div class="card-item-img">
+            <img src="./icons/usd.svg" alt="transport icon">
+          </div>
+          <h2 class="mb-1">Money Back Guaranted</h2>
+          <p class="mb-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <button class="btn btn-secondary">Read More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Deal Section  -->
+  <section id="deal">
+    <div class="container">
+      <div class="sec-head">
+        <h1>Big Deals of the Week</h1>
+        <div>
+          <img src="./icons/hr.svg" alt="hr">
+        </div>
+      </div>
+      <div class="flex justify-center text-center deal-content display-none-m">
+        <div class="flex-1 deal-content-item">
+          <h1>02</h1>
+          <h3>Days</h3>
+        </div>
+        <div class="flex-1 deal-content-item">
+          <h1>20</h1>
+          <h3>Hours</h3>
+        </div>
+        <div class="flex-1 deal-content-item">
+          <h1>42</h1>
+          <h3>Minutes</h3>
+        </div>
+        <div class="flex-1 deal-content-item">
+          <h1>30</h1>
+          <h3>Seconds</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section id="blog">
+    <div class="container">
+      <div class="sec-head">
+        <h1>Big Deals of the Week</h1>
+        <div>
+          <img src="./icons/hr.svg" alt="hr">
+        </div>
+      </div>
+      <div class="flex justify-between mb-2 blog-item-wrapper">
+        <div class="blog-item">
+          <div>
+            <img src="./images/coffee.jpg" alt="coffee">
+          </div>
+          <div class="p-1">
+            <div class="flex justify-between mb-1 blog-sub-item">
+              <div>July 04, 2017</div>
+              <div>Posted by <span class="color-primary">FreshMeal</span>, 12 Comments</div>
+            </div>
+            <div>
+              <h1 class="mb-1">Lorem Ipsum is simply dummy text of the printing</h1>
+              <p class="mb-1">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more letters.</p>
+            </div>
+          </div>
+        </div>
+        <div class="blog-item">
+          <div>
+            <img src="./images/donut.jpg" alt="donut">
+          </div>
+          <div class="p-1">
+            <div class="flex justify-between mb-1 blog-sub-item">
+              <div>July 04, 2017</div>
+              <div>Posted by <span class="color-primary">FreshMeal</span>, 12 Comments</div>
+            </div>
+            <div>
+              <h1 class="mb-1">Lorem Ipsum is simply dummy text of the printing</h1>
+              <p class="mb-1">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more letters.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center">
+        <button class="btn btn-secondary justify-center">View All</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Subscribe Section   -->
+  <section id="sub">
+    <div class="container flex align-center p-1 sub-wrapper">
+      <div class="flex-1">
+        <img src="./images/rasberry.png" alt="rasberry">
+      </div>
+      <div class="flex-1">
+        <h1>Subscribe to our newsletter</h1>
+        <p>Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+        <div class="flex btn-sub-wrapper">
+          <input type="text" placeholder="email@freshmeal.com" />
+          <button class="btn btn-primary">Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us  -->
+  <section id="contact" class="flex">
+    <div class="flex-1 flex flex-column align-center contact-wrapper">
+      <div class="sec-head">
+        <h1>Contact us</h1>
+        <div>
+          <img src="./icons/hr.svg" alt="hr">
+        </div>
+      </div>
+      <div class="contact-content-wrapper">
+        <div class="flex align-center mb-1">
+          <div class="mr-half">
+            <img src="./icons/phone-2.svg" alt="contact logo" />
+          </div>
+          <div class="flex flex-column">
+            <h4>Call US: </h4>
+            <h5 class="color-ternary">(+84)123 456 789</h5>
+          </div>
+        </div>
+
+        <div class="flex align-center mb-1">
+          <div class="mr-half">
+            <img src="./icons/email.svg" alt="contact logo" />
+          </div>
+          <div class="flex flex-column">
+            <h4>E-mail :</h4>
+            <h5 class="color-ternary">support@freshmeal.com</h5>
+          </div>
+        </div>
+
+        <div class="flex align-center mb-1">
+          <div class="mr-half">
+            <img src="./icons/clock-2.svg" alt="contact logo" />
+          </div>
+          <div class="flex flex-column">
+            <h4>Working Hours:</h4>
+            <h5 class="color-ternary">Mon - Sat (8.00am - 12.00am)</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex-1">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1792.1919090057281!2d81.27318951128629!3d26.0537099239925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3bb865131071df3a!2sKotwali%20Jagatpur!5e0!3m2!1sen!2sin!4v1616846658800!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <!-- Scroll arrow -->
+  <div class="up-arrow">
+    <a href="#showcase"><i class="fas fa-angle-double-up fa-4x"></i></a>
+  </div>
+
+  <!-- Footer  -->
+  <footer id="footer-1">
+    <div class="container flex footer-wrapper">
+      <div class="flex-1 mr-half footer-item display-none">
+        <h1 class="mb-1 text-center">About Us</h1>
+        <hr class="hr-color mb-1" />
+        <div class="text-center">
+          <p class="mb-1">It was popularised in the 1960 with the release of Latest sheets containing Lorem Ipsum passage.</p>
+  
+          <button class="btn btn-secondary">Read More</button>
+        </div>
+      </div>
+      <div class="flex-1 mr-half footer-item">
+        <h1 class="mb-1 text-center">Quick Links</h1>
+        <hr class="hr-color mb-1" />
+        <div class="flex flex-column align-center">
+          <a href="#showcase">Home</a>
+          <a href="#about">About us</a>
+          <a href="#">Products</a>
+          <a href="#blog">Blog</a>
+          <a href="#service">Services</a>
+          <a href="#footer-1">Gallery</a>
+          <a href="#contact">Contact Us</a>
+        </div>
+      </div>
+      <div class="flex-1 mr-half footer-item">
+        <h1 class="mb-1 text-center">Follow Us</h1>
+        <hr class="hr-color mb-1" />
+        <div class="flex flex-column footer-icon">
+          <a href="https://www.linkedin.com/in/RhtWeb" class="mb-1" target="_blank">
+            <i class="fab fa-linkedin color-heaven"></i>
+            LinkedIn</a>
+          <a href="https://github.com/RhtWeb" class="mb-1" target="_blank">
+            <i class="fab fa-github color-heaven"></i>
+            GitHub</a>
+          <a href="https://www.facebook.com/RhtWeb" class="mb-1" target="_blank"><img src="./icons/facebook.svg" alt="Facebook link Icon" /> Facebook</a>
+          <a href="https://www.instagram.com/RhtWeb" class="mb-1" target="_blank"><img src="./icons/instagram.svg" alt="instagram link Icon" /> Instagram</a>
+        </div>
+      </div>
+      <div class="flex-1 mr-half footer-item display-none">
+        <h1 class="mb-1 text-center">Instagram</h1>
+        <hr class="hr-color mb-1" />
+        <div class="insta-gallery-wrapper">
+          <div class="insta-gallery-item">
+            <img src="./images/vegies.png" alt="vegies">
+          </div>
+          <div class="insta-gallery-item">
+            <img src="./images/straw.png" alt="straw">
+          </div>
+          <div class="insta-gallery-item">
+            <img src="./images/plate-1.png" alt="plate-1">
+          </div>
+          <div class="insta-gallery-item">
+            <img src="./images/rasberry.png" alt="rasberry">
+          </div>
+          <div class="insta-gallery-item">
+            <img src="./images/plate-2.png" alt="plate-2">
+          </div>
+          <div class="insta-gallery-item">
+            <img src="./images/plate-3.png" alt="plate-3">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Footer-2  -->
+  <footer class="text-center p-1 footer-2">
+    Copyright © 2021 .All rights reserved by <a href="https://rhtwebportfolio.web.app/" target="_blank" class="color-primary">RhtWeb</a>.
+  </footer>
+
+    </div>
+
+  </div>
+  </div>
+
+  <script src="./js/app.js"></script>
+</body>
+</html>
